@@ -1,0 +1,12 @@
+
+네트워크
+docker network create --driver=overlay --attachable todoapp_exam
+
+스택 배포
+docker stack deploy -c /stack/visualizer-exam.yml visualizer_exam
+docker stack deploy -c /stack/todo-mysql-exam.yml todo_mysql_exam
+docker stack deploy -c /stack/todo-ingress-exam.yml todo_ingress_exam
+docker stack deploy -c /stack/todo-frontend-exam.yml todo_frontend_exam
+docker stack deploy -c /stack/todo-app-exam.yml todo_app_exam
+
+
