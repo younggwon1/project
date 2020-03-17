@@ -1,0 +1,3 @@
+Write Compose file for DRUPAL service ( https://www.drupal.com/) - Build a basic compose file for a Drupal content management system website. Docker Hub is your friend :) - Use the drupal image along with the mysql image - Use ports to expose Drupal on 8080 so you can localhost:8080 - Be sure to set MYSQL_ROOT_ PASSWORD for mysql - Walk though Drupal setup via browser
+
+- Tip: Drupal assumes DB is localhost, but it's service name - Extra Credit: Use volumes to store Drupal unique data
