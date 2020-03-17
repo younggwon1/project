@@ -1,2 +1,3 @@
-docker and cloud project
-실습 : 컨테이너 기반 앱 배포를 위한 docker와 kubernetes
+Module project
+
+각각 교육이 끝나고 해당하는 교육에 맞춰 모듈 프로젝트를 진행
