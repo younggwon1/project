@@ -2,7 +2,7 @@
 
 > 인스턴스를 시작할 때 키 페어와 보안 그룹을 지정하여 인스턴스 보안을 설정한다. 인스턴스에 연결할 때는 인스턴스 시작 시 지정한 키 페어의 프라이빗 키를 지정해야 한다.
 
-
+[https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 
 ### 1. 인스턴스 시작
 
@@ -54,6 +54,8 @@
 # NoSQL 테이블 생성 및 쿼리
 
 >  [DynamoDB 콘솔](https://console.aws.amazon.com/console/home?region=us-east-1)을 사용하여 간단한 테이블을 만들고, 데이터를 추가하며, 데이터를 스캔 및 쿼리하고, 데이터와 테이블을 삭제하는 방법을 알아봅니다.
+>
+>  [https://aws.amazon.com/ko/getting-started/tutorials/create-nosql-table/](https://aws.amazon.com/ko/getting-started/tutorials/create-nosql-table/)
 
 
 
@@ -80,6 +82,8 @@
 ---
 
 # Elastic Beanstalk 사용 시작(Platform은 도커로)
+
+> [https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/GettingStarted.CreateApp.html](https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/GettingStarted.CreateApp.html)
 
 ### 1. 예제 애플리케이션 생성
 
