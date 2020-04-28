@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Spring Boot Thymeleaf</title>
+</head>
+<body>
+	<h2 th:text="${name}">Name</h2>
+	<h2>Hello, <span th:text="${name}"></span></h2>
+	<h2>다른 방법, [[${name}]]</h2>
+	<h2>다른 방법, ${name}</h2>
+</body>
+</html>

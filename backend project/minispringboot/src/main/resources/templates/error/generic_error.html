@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Error page</h2>
+	
+	<div th:if="!${#strings.isEmpty(errCode)}">
+		<h5>Logic Error : <span th:text="${errCode}"></span></h5>
+	</div>
+	<div th:if="${#strings.isEmpty(errCode)}">
+		<h5>System Errors : </h5>
+	</div>
+	<div>
+		<span th:text="${errMsg}"></span>
+	</div>
+</body>
+</html>
